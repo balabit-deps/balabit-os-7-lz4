@@ -1,3 +1,11 @@
+lz4 (0.0~r131-2ubuntu3.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: memory corruption due to an integer overflow bug
+    - debian/patches/CVE-2021-3520.patch: check outputSize in lib/lz4.c.
+    - CVE-2021-3520
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 20 May 2021 13:00:54 -0400
+
 lz4 (0.0~r131-2ubuntu3) bionic; urgency=high
 
   * No change rebuild to pick up -fPIE compiler default
